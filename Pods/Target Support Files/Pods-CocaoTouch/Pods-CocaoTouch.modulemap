@@ -1,0 +1,6 @@
+framework module Pods_CocaoTouch {
+  umbrella header "Pods-CocaoTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
