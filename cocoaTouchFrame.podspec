@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/EstimoteSDK"',
                'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/EstimoteSDK"' }
   s.license      = "MIT"
+  s.dependency "GoogleMaps", "~> 2.2.30010"
 end
